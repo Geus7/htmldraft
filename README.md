@@ -3,4 +3,4 @@ My first html project
 
 # HTML project
 
-Creating a student credentials static webpage using html and css
+Creating a static webpage for collecting student credentials  using html (forms)  and css
