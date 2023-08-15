@@ -1,4 +1,4 @@
-# htmldraft
+# HTML Draft
 My first html project 
 
 # HTML project
