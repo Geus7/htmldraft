@@ -20,3 +20,7 @@ Creating  a hoverable drop down box with URL link included.
 # HTML Project 5
 
 Adding audio to your html webpage.
+
+# HTML Project 6
+
+Adding a video to a website along with its reference link in html.
