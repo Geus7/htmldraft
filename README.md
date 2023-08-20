@@ -1,3 +1,7 @@
+
+
+https://github.com/Geus7/htmldraft/assets/137599918/266e4145-fd14-4740-b59b-70887be01442
+
 # HTML Draft
 My first html project 
 
@@ -24,3 +28,7 @@ Adding audio to your html webpage.
 # HTML Project 6
 
 Adding a video to a website along with its reference link in html.
+
+It would look like the following picture.
+
+![image](https://github.com/Geus7/htmldraft/assets/137599918/84150080-67c4-4b32-ba31-624c06764974)
