@@ -1,7 +1,5 @@
 
 
-https://github.com/Geus7/htmldraft/assets/137599918/266e4145-fd14-4740-b59b-70887be01442
-
 # HTML Draft
 My first html project 
 
