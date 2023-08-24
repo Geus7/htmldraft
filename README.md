@@ -34,3 +34,7 @@ It would look like the following picture.
 # HTML Project 7
 
 Creating a transition using CSS.
+
+# HTML Project 8
+
+Transition that makes a circle disappear.
