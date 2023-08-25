@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+    <title>Transitions</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+        }
+        body {
+            background-color: rgb(47, 47, 47);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 70px;
+            margin: 50px;
+            color: white;
+        }
+        .container {
+            width: 500px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .box {
+            width: 60px;
+            height: 60px;
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background-color: white;
+            border-radius: 50%;
+            transition: background-color 0.3s ease;
+        }
+        .box:hover {
+            background-color: gray;
+        }
+        i {
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1> CSS Transitions with icons</h1>
+        <div class="container">
+            <div class="box">
+                <i class="fab fa-github"></i>
+            </div>
+            <div class="box">
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="box">
+                <i class="fab fa-facebook"></i>
+            </div>
+            <div class="box">
+                <i class="fab fa-whatsapp"></i>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
