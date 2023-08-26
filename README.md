@@ -46,4 +46,8 @@ Draft of creating transitions of icons using css.
  1.Draft
 ![image](https://github.com/Geus7/htmldraft/assets/137599918/211896ac-b89d-4280-90b5-ec0d0b1c706d)
 
+# HTML Project 10
+
+Static website with images from different websites connected via href.
+
 
