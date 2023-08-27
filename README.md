@@ -50,4 +50,11 @@ Draft of creating transitions of icons using css.
 
 Static website with images from different websites connected via href.
 
+# HTML Project 11
+
+Making the icons from previous project to reveal themselves from a shadow.
+
+![image](https://github.com/Geus7/htmldraft/assets/137599918/fc98518e-ec38-4a80-819a-4c062497d24a)
+
+
 
