@@ -44,7 +44,8 @@ Transition that makes a circle disappear.
 Draft of creating transitions of icons using css.
 <br>
  1.Draft
-![image](https://github.com/Geus7/htmldraft/assets/137599918/211896ac-b89d-4280-90b5-ec0d0b1c706d)
+![image](https://github.com/Geus7/htmldraft/assets/137599918/767d8041-adf9-4928-baea-e6dd79481c3b)
+
 
 # HTML Project 10
 
@@ -55,7 +56,8 @@ Static website with images from different websites connected via href.
 Making the icons from previous project to reveal themselves from a shadow.
 As shown below
 
-![image](https://github.com/Geus7/htmldraft/assets/137599918/d2b97750-3f99-474c-a94b-eee396dd40e0)
+![image](https://github.com/Geus7/htmldraft/assets/137599918/adaaff4f-80a8-4b75-8fc3-d2d61842f925)
+
 
 
 
