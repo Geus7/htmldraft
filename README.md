@@ -53,8 +53,10 @@ Static website with images from different websites connected via href.
 # HTML Project 11
 
 Making the icons from previous project to reveal themselves from a shadow.
+As shown below
 
-![image](https://github.com/Geus7/htmldraft/assets/137599918/fc98518e-ec38-4a80-819a-4c062497d24a)
+![image](https://github.com/Geus7/htmldraft/assets/137599918/d2b97750-3f99-474c-a94b-eee396dd40e0)
+
 
 
 
