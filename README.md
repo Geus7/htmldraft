@@ -58,6 +58,10 @@ As shown below
 
 ![image](https://github.com/Geus7/htmldraft/assets/137599918/adaaff4f-80a8-4b75-8fc3-d2d61842f925)
 
+# HTML Project 12
+
+Making the created move up with a delay of 2 seconds.
+
 
 
 
