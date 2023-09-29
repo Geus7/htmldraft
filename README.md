@@ -68,5 +68,10 @@ Making the created move up with a delay of 2 seconds.
 Accessing the websites through functional icons with transitions.
 <br>
 
+# HTML Project 14
+
+8-Puzzle problem using html,css,javascript.
+<br>
+
 
 
