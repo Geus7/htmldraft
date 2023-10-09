@@ -67,6 +67,11 @@ Making the created move up with a delay of 2 seconds.
 
 Accessing the websites through functional icons with transitions.
 <br>
+# HTML Project 14
+
+To calculate profit or loss percentage based on the given cost price and selling price.
+
+<br>
 
 
 
