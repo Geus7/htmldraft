@@ -73,5 +73,12 @@ To calculate profit or loss percentage based on the given cost price and selling
 
 <br>
 
+# HTML Project 15 
+
+To shuffle a deck of cards into five.
+
+<br>
+
+
 
 
