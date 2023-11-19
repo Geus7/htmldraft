@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Profit or Loss Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+        }
+        body {
+            background-color: rgb(47, 0, 47);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        h1 {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            margin: 50px;
+            padding: 50px;
+        }
+        p {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+        .plcalculate {
+            text-align: center;
+            background-color: rgba(82, 35, 82, 0.603);
+            width: 500px;
+            margin: 50px;
+            padding: 50px;
+            border-radius: 10px;
+        }
+        input[type="number"] {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .profit__loss {
+            margin-top: 20px; /* Added margin to move the profit result down */
+        }
+    </style>
+</head>
+<body>
+    <h1>Profit and Loss Calculator</h1>
+    <div class="plcalculate">
+        <p>
+            Cost Price(CP) :
+            <input class="cost__price" type="number" />
+        </p>
+        <br>
+        <p>
+            Selling Price(SP) :
+            <input class="selling__price" type="number" />
+        </p>
+        <br>
+        <button onclick="Calculate()">Calculate</button>
+        <br>
+        <h2 class="profit__loss"></h2>
+        <br>
+        <h2 class="profit__loss__percentage"></h2>
+        <br>
+        <h2 class="nothing"></h2>
+    </div>
+    <br>
+    <script>
+        function Calculate() {
+            const CP = parseFloat(document.querySelector(".cost__price").value);
+            const SP = parseFloat(document.querySelector(".selling__price").value);
+
+            const profit__loss = document.querySelector(".profit__loss");
+            const percentage = document.querySelector(".profit__loss__percentage");
+            const nothing = document.querySelector(".nothing");
+
+            profit__loss.innerHTML = "";
+            percentage.innerHTML = "";
+            nothing.innerHTML = "";
+            
+            if (SP > CP) {
+                const profit = SP - CP;
+                const profit_percent = ((profit / CP) * 100).toFixed(2);
+
+                profit__loss.innerHTML = "Profit : " + profit;
+                percentage.innerHTML = "Profit Percentage : " + profit_percent + "%";
+            }
+            else if (SP < CP) {
+                const loss = CP - SP;
+                const loss_percent = ((loss / CP) * 100).toFixed(2);
+
+                profit__loss.innerHTML = "Loss : " + loss;
+                percentage.innerHTML = "Loss Percentage : " + loss_percent + "%";
+            }
+            else {
+                nothing.innerHTML = "No Profit No Loss";
+            }
+        }
+    </script>
+</body>
+</html>

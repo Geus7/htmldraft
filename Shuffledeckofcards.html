@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deck of Cards Shuffle</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color:rgba(27, 23, 27, 0.055);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 70vh;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20%;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #output {
+            margin-top: 20px;
+            font-size: 18px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Deck of Cards Shuffle</h1>
+    </header>
+    <button id="shuffleButton">Shuffle Cards</button>
+    <div id="output"></div>
+    <script>
+        const suits = ["Spades", "Diamonds", "Clubs", "Hearts"];
+        const values = [
+          "Ace",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "Jack",
+          "Queen",
+          "King",
+        ];
+        let deck = [];
+
+        for (let i = 0; i < suits.length; i++) {
+            for (let x = 0; x < values.length; x++) {
+                let card = { Value: values[x], Suit: suits[i] };
+                deck.push(card);
+            }
+        }
+        
+        function shuffleDeck() {
+            for (let i = deck.length - 1; i > 0; i--) {
+                let j = Math.floor(Math.random() * i);
+                let temp = deck[i];
+                deck[i] = deck[j];
+                deck[j] = temp;
+            }
+            
+            let output = 'The first five shuffled cards are:<br>';
+            for (let i = 0; i < 5; i++) {
+                output += `${deck[i].Value} of ${deck[i].Suit}<br>`;
+            }
+            
+            document.getElementById('output').innerHTML = output;
+        }
+
+        document.getElementById('shuffleButton').addEventListener('click', shuffleDeck);
+    </script>
+</body>
+</html>
